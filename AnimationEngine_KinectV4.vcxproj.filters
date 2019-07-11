@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\gl3w">
+      <UniqueIdentifier>{53802e4a-dc2a-4d8a-902f-b7c026b86a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{18243c9b-a82b-4425-8c3b-7f3b605655d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader">
+      <UniqueIdentifier>{a53474aa-8e75-4384-8383-f09435743c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Component">
+      <UniqueIdentifier>{a8824688-096d-4023-a303-4e17506c8422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cpp File">
+      <UniqueIdentifier>{07602d94-9744-42ab-88e8-70e6bea53a44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imconfig.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imgui.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imgui_impl_sdl.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imgui_internal.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imstb_rectpack.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imstb_textedit.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imstb_truetype.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\imgui\imgui_impl_opengl3.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dependencies\include\imgui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\include\imgui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\include\imgui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\include\imgui\imgui_impl_sdl.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\include\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\include\gl3w\GL\gl3w.c">
+      <Filter>Source Files\gl3w</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationEngine.cpp">
+      <Filter>Source Files\Cpp File</Filter>
+    </ClCompile>
+    <ClCompile Include="Component2D.cpp">
+      <Filter>Source Files\Cpp File</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source Files\Cpp File</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files\Cpp File</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint2D.cpp">
+      <Filter>Source Files\Cpp File</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProgram.cpp">
+      <Filter>Source Files\Cpp File</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Source Files\Cpp File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="bone.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="bone.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="point.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="point.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="pointAnimation.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="pointAnimation.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="sprite.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="sprite.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="head.png">
+      <Filter>Resource Files\Component</Filter>
+    </Image>
+    <Image Include="left_arm.png">
+      <Filter>Resource Files\Component</Filter>
+    </Image>
+    <Image Include="left_leg.png">
+      <Filter>Resource Files\Component</Filter>
+    </Image>
+    <Image Include="right_arm.png">
+      <Filter>Resource Files\Component</Filter>
+    </Image>
+    <Image Include="right_leg.png">
+      <Filter>Resource Files\Component</Filter>
+    </Image>
+    <Image Include="torso.png">
+      <Filter>Resource Files\Component</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

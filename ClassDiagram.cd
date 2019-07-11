@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="FullSignature">
+  <Class Name="AnimationEngine" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAADAAAIAAAAAAAAAYiAAAAARACAAAAAAA=</HashCode>
+      <FileName>AnimationEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bone" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAYAAAAQAAFAAAAAAAAAAAAAAAAAAAlACAAAAAAE=</HashCode>
+      <FileName>Bone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component2D" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAgAAAABABAIAAAAAAIAAAAQAAgAAARACAAAcACE=</HashCode>
+      <FileName>Component2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAABAhAAQAAAAAwAAAQAAIEAAgEABGCSAACAgA=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frame" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAEAAAAAAAEAAAAAAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>Frame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Joint2D" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAQgAAAAIAAAAAEAAAAAAAAAAAAABAIRQCAAAMACE=</HashCode>
+      <FileName>Joint2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="State" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WindowFlag" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="jointDirectory" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAcAAEAAAIAIBhAAAAAIABAAEAAAAAECAAAAAAA=</HashCode>
+      <FileName>Joint2D.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
